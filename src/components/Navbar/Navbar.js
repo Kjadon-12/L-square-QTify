@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
         <div className={styles.logo} ><Logo /></div>
-        <SearchBar/>
+        <SearchBar placeholder="Search a song of your choice"/>
         <Button btnText="Give Feedback"/>
     </div>
   )
