@@ -6,6 +6,11 @@
   padding: 1rem;
 }
 
+/* logo */
+.logo{
+    cursor:pointer;
+}
+
 /* searchbar */
 .searchBarContainer {
   display: flex;
