@@ -1,13 +1,11 @@
 /* feedbackbtn */
 .feedbackBtn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     color: var(--color-primary);
     background-color: var(--color-black);
     border: 1px;
     border-radius: 12px;
-    padding: 10px 16px 10px 16px;
+    padding: 10px 16px ;
     letter-spacing: 1px;
     cursor: pointer;
 }

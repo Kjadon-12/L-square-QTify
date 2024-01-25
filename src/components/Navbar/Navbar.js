@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
         <a href='/' ><Logo /></a>
         <Search placeholder="Search a album of your choice"/>
-        <Button btnText="Give Feedback"/>
+        <Button>Give Feedback</Button>
     </nav>
   )
 }

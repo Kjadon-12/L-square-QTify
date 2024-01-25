@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Button.module.css'
 
-const Button = ({btnText}) => {
+const Button = ({children}) => {
   return (
-    <div className={styles.feedbackBtn}>
-          {btnText}
-    </div>
+    <button className={styles.feedbackBtn}>
+          {children}
+    </button>
   )
 }
 
