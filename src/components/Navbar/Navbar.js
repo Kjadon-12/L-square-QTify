@@ -1,19 +1,19 @@
 import React from 'react'
-import Logo from './Logo'
+import Logo from '../Logo/Logo'
 import styles from './Navbar.module.css'
-import SearchBar from './SearchBar'
-import Button from './Button'
+import Search from '../Search/Search'
+import Button from '../Button/Button'
 
 
 
 const Navbar = () => {
     
   return (
-    <div className={styles.navbar}>
-        <div className={styles.logo} ><Logo /></div>
-        <SearchBar placeholder="Search a song of your choice"/>
+    <nav className={styles.navbar}>
+        <a href='/' ><Logo /></a>
+        <Search placeholder="Search a song of your choice"/>
         <Button btnText="Give Feedback"/>
-    </div>
+    </nav>
   )
 }
 
