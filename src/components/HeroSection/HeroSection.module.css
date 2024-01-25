@@ -22,6 +22,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 34.8125rem; /* 605px converted to rem */
+  width: 35.8125rem; /* 605px converted to rem */
   text-align: center;
+}
+.heroSectionText>h1{
+  font-size: 32px;
 }
