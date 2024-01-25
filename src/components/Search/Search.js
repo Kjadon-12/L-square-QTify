@@ -15,7 +15,7 @@ const Search = ({placeholder}) => {
           required
         ></input>
         <button type="submit" className={styles.searchButton}>
-          <SearchIcon />
+          <SearchIcon width={20} height={20} />
         </button>
       </form>
     </>
