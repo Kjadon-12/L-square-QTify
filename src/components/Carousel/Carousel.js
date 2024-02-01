@@ -11,7 +11,7 @@ import Card from '../Card/Card';
 import CarouselPrev from './CarouselPrev';
 import CarouselNext from './CarouselNext';
 
-const Carousel = ({data}) => {
+const Carousel = ({data , type}) => {
   return (
     <>
     
@@ -29,7 +29,7 @@ const Carousel = ({data}) => {
         <CarouselPrev/>
         <CarouselNext/>
       {data.map((item) =>
-        <SwiperSlide key={item.id}><Card data={item} type="album"/> </SwiperSlide>
+        <SwiperSlide key={item.id}><Card data={item} type={type}/> </SwiperSlide>
       )}
       
       
