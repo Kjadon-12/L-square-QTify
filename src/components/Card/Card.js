@@ -36,7 +36,7 @@ const Card = ({ data , type}) => {
         const { image, likes, title } = data;
         return (
           <div className={styles.wrpper}>
-            <div className={styles.card}>
+            <div className={styles.card} >
               <img src={image} alt="song" loading="lazy"></img>
               <div className={styles.banner}>
                 <div className={styles.pill}>
@@ -44,7 +44,7 @@ const Card = ({ data , type}) => {
                 </div>
               </div>
             </div>
-            <div className={styles.titleWrapper}>
+            <div className={styles.titleWrapper} style={{width: '10rem'}}>
               <p>{title}</p>
             </div>
           </div>

@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import { fetchNewAlbums, fetchTopAlbums , fetchSongs, fetchFilters } from './api/api';
 import { useEffect, useState } from 'react';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [searchData , setSearchData] = useState();
@@ -29,7 +30,7 @@ function App() {
     <div>
       <Navbar/>
       <Outlet context={{data:{topAlbums , newAlbums , songs }}}/>
-      
+      <Footer/>
    
     </div>
   );
