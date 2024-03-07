@@ -1,0 +1,14 @@
+.searchData{
+    position: absolute;
+      top: 74px;
+      left: 272px;
+      width: 773px;
+      border: 1px solid var(--color-primary);
+      height: 455px;
+      background: black;
+      overflow-y: scroll;
+      z-index: 11;
+  }
+  ::-webkit-scrollbar{
+    width: 0;
+  }

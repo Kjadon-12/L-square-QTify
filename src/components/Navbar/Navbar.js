@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom'
 
 
 
-const Navbar = () => {
+const Navbar = ({topAlbums}) => {
     
   return (
     <nav className={styles.navbar}>
         <Link to='/' ><Logo /></Link>
-        <Search placeholder="Search a album of your choice"/>
+        <Search placeholder="Search a album of your choice" topAlbums={topAlbums}/>
         <Button>Give Feedback</Button>
     </nav>
   )

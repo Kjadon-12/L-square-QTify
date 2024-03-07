@@ -28,7 +28,7 @@ function App() {
   const {topAlbums= [] , newAlbums= [] , songs=[] } = data;
   return (
     <div>
-      <Navbar/>
+      <Navbar topAlbums={topAlbums}/>
       <Outlet context={{data:{topAlbums , newAlbums , songs }}}/>
       <Footer/>
    

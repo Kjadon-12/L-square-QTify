@@ -4,6 +4,7 @@ import './index.css'
 import App from './App';
 import { createBrowserRouter , RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
+import SongPage from './pages/Songs/SongPage';
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element: <HomePage/>
+      },
+      {
+        path: '/album/:slug',
+        element: <SongPage/>
       }
     ]
   }

@@ -1,0 +1,19 @@
+.searchSongWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin-top: 6px;
+    cursor: pointer;
+    align-items: center;
+}
+.truncatedTitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 373px; /* Adjust the max-width according to your design */
+  }
+  .searchImg{
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #1D1D1D;
+  }
